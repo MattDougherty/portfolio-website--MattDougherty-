@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matt Dougherty - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav id="desktop-nav">
+            <div class="logo">Matt Dougherty</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Hamburger Menu -->
+        <nav id="hamburger-nav">
+            <div class="logo">Matt Dougherty</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+    <!-- Profile Section -->
+    <section id="about">
+        <div class="section_pic-container">
+            <img src="./assets/mattProfilePic.jpg" alt="Matt Dougherty profile pic" />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Matt Dougherty</h1>
+            <p class="section_text_p2">Frontend developer</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+            <img src="./assets/exp.jpg" alt="Exp" />
+        </div>
+        <p>Over the years, I've had the privilege of working with cutting-edge technologies and contributing to various projects. My skills include HTML, CSS, JavaScript, and more.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="./assets/arrow.png" alt="Project 1">
+            <p>Capstone Design Project: As part of my academic journey, I developed an innovative project that leveraged modern technologies. The project aimed to solve [describe the problem it addresses].</p>
+        </div>
+    </section>
+
+    <!-- (Optional) Contact Section -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through email at mattdougherty49@gmail.com. You can also connect with me on LinkedIn and Twitter for professional discussions and networking.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Matt Dougherty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
